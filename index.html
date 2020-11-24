@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>The Fridge</title>
+</head>
+<body>
+    <div class="nav">
+        
+       <div class="items">
+           <label><a href="index.html">Home <i class="fa  fa-home" ></i></a></label>
+           <label><a href="#">Another Fridge <i class="fa fa-book"></i></a> </label>
+           <label><a href="ContactUs.html">Contact us <i class="fa fa-phone"></i></a></label>
+       </div>
+    </div>
+    <div class="container">
+        <h1 class="conH1">The Fridge</h1>
+        <div class="insertCard">
+            <h2 class="cardDetails">Insret an item</h2>
+            <!--  <input type="file" id="btnUpload" value="Upload" accept="image/*" onchange="previewFile()">
+                <img id="blah" src="#" />
+                
+                <input type="button" id="btnDel" name="Delete" value="Delete"> -->
+                <input type="button" id="btnSave" name="Save" value="Save">
+                
+            <div class="groupInline">
+                <label id="labNameWar" class="labWar">Fields is empty</label>
+                <!-- <label id="labAuthorWar" class="labWar2">labAuthorWar</label>
+                <label id="labPupWar" class="labWar2">labPupWar</label>
+                <label id="labGenWar"class="labWar2">labGenWar</label> -->
+                <br>
+                
+                <label id="labName" class="lab groupInline">Name</label>
+                <input type="text" name="itemName" class="input groupInline">
+                
+                <label id="labAuthor"class="lab groupInline">Quantity</label>
+                <input type="text" name="quantity" class="input groupInline">
+                
+            <label id="labPup"class="lab groupInline">Expiry date</label>
+            <input type="date" name="expiryDate" class="input groupInline">
+           
+            
+            <!-- <label id="labGen"class="lab">Genre</label>
+            <label id="labGenWar" class="labWar2"></label>
+            <input type="text" name="bookPublished" class="input"> -->
+           
+            <label  id="labGen"class="lab groupInline" >Choose a Genre:</label>
+            <select name="Genre" id="dropGenre" class="groupInline">
+                
+                <option selected disabled>Choose one</option>
+                   <option value="Vegetables">Vegetables</option>
+                   <option value=" Fruits">Fruits </option>
+                   <option value=" Soft drinks">Soft drinks </option>
+                   <option value=" Milk">Milk </option>
+                   <option value=" Bread">Bread </option>
+                   <option value=" Butter">Butter </option>
+                   <option value=" Other">Other </option>
+                    
+                        
+                </select>
+            
+        
+
+            </div>
+        </div>
+        <div id="bookAllList" class="bookList">
+                <h1>All items in the Fridge</h1>
+                <div class="table ">
+                    <table>
+                        <tr>
+                        <th>Name</th>
+                        <th>Quantuty</th>
+                        <th>Expiry date</th>
+                        <th>Gendre</th>
+                         </tr>
+                         <tr>
+                             <td>Morat</td>
+                             <td>5</td>
+                             <td>2020-10-15</td>
+                             <td>Vegetables</td>
+                         </tr>
+                    </table>
+                 </div>
+                <div class="listCard">
+                    <ul>
+                        <li>Book 1</li>
+                        <li>Book 2</li>
+                        <li>Book 3</li>
+                    </ul>
+                </div>
+        </div>
+
+    </div>
+    <footer>
+        <p>Copyright Ninib Harouli 2020</p>
+      </footer>
+</body>
+       
+</html>

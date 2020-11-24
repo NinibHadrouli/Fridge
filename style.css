@@ -1,0 +1,230 @@
+body{
+   
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.conH1{
+    text-shadow: 4px 4px 5px teal;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.items{
+    border-radius: 20px;
+ 
+    
+    display: table;
+    background-color: rgb(250, 179, 73);
+}
+.items label{
+  
+    margin: 50px;
+    padding:10px 20px;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+a{
+    text-decoration: none;
+    color: rgb(65, 64, 64);
+    text-shadow: 1px 1px white;
+}
+.items label:hover{
+ color:rgb(245, 14, 14);
+ cursor: pointer;
+}
+.labWar{
+    
+    color:white;
+    text-shadow: 1px 1px red;
+    display: inline-block;
+    display: none;
+}
+.groupInline{
+    display: inline-block;
+}
+.nav ul {
+    
+    
+    vertical-align: middle;
+    
+    margin: 0 auto;
+}
+.nav li{
+   margin-right: 20px;
+    list-style: none;
+    display: inline;
+}
+.nav li:hover{
+font-size: 20px;
+    cursor: pointer;
+    transition: all 0.2s;
+    
+    
+}
+.labWar2{
+    color: red;
+}
+.insertCard{
+    width: 80%;
+  
+    
+    background: rgba(158, 158, 158, 0.7); 
+    border-radius: 7px;
+   
+    padding: 2px 0 0 30px;
+    box-shadow: 2px 2px 8px white;
+    margin:auto;
+    display: block; 
+}
+
+.cardDetails{
+    color: white;
+    text-shadow: 2px 2px black;
+    display: inline-block;
+    font-size: 24px;
+    margin: 10px 0 0 0;
+}
+.lab{
+    margin: 0px 5px 30px 25px;
+    font-size: 20px;
+    color: rgb(247, 180, 57);
+    align-items: center;
+    text-shadow:1px 1px black;
+}
+
+.input{
+    margin-top:10px ;
+   /*  font-size: 20px; */
+   /*  display: flex; */
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    border-radius: 5px;
+  border-bottom: 2px solid rgb(63, 61, 61);
+  /* background-color: transparent; */
+  padding-left: 5px;
+  color:teal;
+  transition: 0.5s;
+}
+#blah{
+    width: 150px;
+    height: 200px;
+    background-color: tomato;
+    float: right;
+    margin: 20px 20px 30px 20px;
+    border-radius: 5px;
+    border: solid 2px white;
+    
+    
+}
+#btnUpload{
+    /* width: 100px; */
+    
+  
+   
+   
+    margin-left: 330px;
+    border-radius: 3px;
+    
+}
+
+#btnSave{
+    margin: 20px 30px 0 0;
+    width: 100px;
+    font-size: 16px;
+   
+    cursor: pointer;
+    background-color: teal;
+    border-radius: 5px;
+    color: white;
+    display: inline;
+    float: right;
+}
+.bookList{
+    width: 500px;
+    height: auto;
+    background: rgba(116, 115, 115, 0.7); 
+    border-radius: 7px;
+    /* opacity: 0.5; */
+    padding: 2px 0 0 30px;
+    box-shadow: 2px 2px 8px white;
+    display: block;
+    
+   
+    margin:20px auto;
+}
+.listCard{
+    width: 320px;
+    height: auto;
+    background-color: ivory;
+    border-radius: 5px;
+  
+}
+.listCard li{
+    list-style: none;
+    border-bottom: solid 1px black;
+    padding:10px 0 0px 0;
+}
+.liProp{
+    color:  rgb(247, 180, 57);
+    text-shadow: 1px 1px rgb(7, 4, 0);
+    font-size: 18px;
+    list-style: none;
+    padding: 5px 30px 5px 5px;
+    margin: 5px ;
+    display: inline-block;
+    width: 77%;
+}
+.liProp:hover{
+    background-color: bisque;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: 0.7s;
+    
+    
+}
+#genre{
+    color: white;
+}
+
+table{
+    padding-bottom: 10px;
+}
+table th{
+    color: teal;
+    text-shadow: 1px 1px black;
+    font-size: 18px;
+    text-align: left;
+    margin-right: 5px;
+    padding-right: 33px;
+}
+.btnTake{
+    background-color: teal;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 7px;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    height: 40px;
+    margin: 0 auto;
+    
+    width: 99%;
+    border-radius: 15px;
+    background: rgba(5, 0, 0, 0.7); 
+    
+}
+footer p{
+    color: white;
+    margin-right: 30px;
+    margin-top: 10px;
+    float: right;
+}
